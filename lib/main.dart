@@ -138,7 +138,7 @@ class _WeatherHomeState extends State<WeatherHome> {
           const SizedBox(height: 12),
           Expanded(
             child: forecast.isEmpty
-                ? const Center(child: Text('Tap the button to simulate a 7-day forecast.'))
+                ? const Center(child: Text('Tap the button to simulate a 7-day forecast. '))
                 : ListView.builder(
                     itemCount: forecast.length,
                     itemBuilder: (context, index) {
